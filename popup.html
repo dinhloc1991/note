@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Getting Started Extension's Popup</title>
     <style>
       body {
@@ -23,14 +24,14 @@
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
      -->
+  <script src='jquery.js' ></script>
+  <script src='script.js' ></script>
+ 
   </head>
   <body>
-   <div id ='searchInput'> <input type='text' size =40 /> </div>
-   <div id ='guide'>
-    <li>show all</li>
-    <li>new branch - ten branch</li>
-    <li>branch's name</li>
-
+   <div> <input id = 'searchInput' type='text' size =40 /> </div>
+   <div id ='guide'></div>
+   <div id='search_result'> </div>
   </div>
 
   </body>
